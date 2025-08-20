@@ -47,4 +47,4 @@ print("Mean Squared Error:", round(metrics.mean_squared_error(y_test, prediction
 print("Median Absolute Error:", round(metrics.median_absolute_error(y_test, predictions), 2)) # median absolute error
 print("Explained Variance Score:", round(metrics.explained_variance_score(y_test, predictions), 2)) # explained variance score
 print("R2 Score:", round(metrics.r2_score(y_test, predictions), 2))
-# This will print the performance metrics of the linear regression model
+#Print the performance metrics of the linear regression model
